@@ -1,0 +1,5 @@
+Without '\n' Hello is printed to unflushed buffer.So, after fork call state is copied to child process
+and on the exit output buffers both parent and child(flushed)
+
+
+With '\n' output is flushed before fork call

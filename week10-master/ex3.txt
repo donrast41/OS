@@ -1,0 +1,3 @@
+chmod 600 -> r+w only for owner  
+chmod 775 -> r+w+x for everyone (excluding public write)
+chmod 777 -> r+w+x for everyone

@@ -1,0 +1,6 @@
+8 KB pages = 2^13 bytes.
+Therefore,
+offset size = 13 bits.
+
+Bits left = (16 - 13) bits = 3 bits.
+Thus, number of entries in S-L LP table = 2^3 = 8 entries.

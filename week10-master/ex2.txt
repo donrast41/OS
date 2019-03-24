@@ -1,0 +1,12 @@
+link ../week-2/file.txt _ex2.txt
+
+Command: ls -i _ex2.txt
+Output: 7866380 _ex2.txt
+
+Command: find -inum 7866380
+Output: ./_ex2.txt
+
+Command: find -inum 7866380 -exec rm {} \;
+
+ls -i _ex2.txt
+Output: ls: cannot access '_ex2.txt': No such file or directory

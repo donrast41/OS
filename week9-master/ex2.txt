@@ -1,0 +1,3 @@
+Equal references will result in increase of hit rate and decrease of miss rate.
+
+If page frames> interval between equal references, we can achieve the result.
